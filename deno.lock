@@ -3,6 +3,8 @@
   "specifiers": {
     "npm:aws-cdk-lib@^2.165.0": "2.165.0_constructs@10.4.2",
     "npm:aws-cdk@*": "2.164.1",
+    "npm:aws-cdk@^2.165.0": "2.165.0",
+    "npm:cdk@*": "2.165.0",
     "npm:constructs@^10.4.2": "10.4.2"
   },
   "npm": {
@@ -73,6 +75,12 @@
         "fsevents"
       ]
     },
+    "aws-cdk@2.165.0": {
+      "integrity": "sha512-9j7i/qVBGmGJqu1xAKtawYo5AqI+6mI4pGmTdzNmrNfynDCrLVuVKSqf2LnhMh2KPWetEMiSPyyekfvXGWgZbw==",
+      "dependencies": [
+        "fsevents"
+      ]
+    },
     "balanced-match@1.0.2": {
       "integrity": "sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw=="
     },
@@ -85,6 +93,12 @@
     },
     "case@1.6.3": {
       "integrity": "sha512-mzDSXIPaFwVDvZAHqZ9VlbyF4yyXRuX6IvB06WvPYkqJVO24kX1PPhv9bfpKNFZyxYFmmgo03HUiD8iklmJYRQ=="
+    },
+    "cdk@2.165.0": {
+      "integrity": "sha512-t5tRGvgWcy3+vgCxy32FPy2WVPBWav0235vc4JIeL9GO+wpKN8IRlU1J3pRTm3DUpZWCpBGQp5JtA6k8zL7yKQ==",
+      "dependencies": [
+        "aws-cdk@2.165.0"
+      ]
     },
     "color-convert@2.0.1": {
       "integrity": "sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==",
@@ -263,6 +277,7 @@
   "workspace": {
     "dependencies": [
       "npm:aws-cdk-lib@^2.165.0",
+      "npm:aws-cdk@^2.165.0",
       "npm:constructs@^10.4.2"
     ]
   }

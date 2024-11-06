@@ -6,7 +6,9 @@
   "features": {
     "ghcr.io/devcontainers/features/aws-cli:1": {},
     "ghcr.io/devcontainers/features/github-cli:1": {},
-    "ghcr.io/devcontainers-community/features/deno:1": {},
+    "ghcr.io/devcontainers-community/features/deno:1": {
+      "version": "2.0.5"
+    },
     "ghcr.io/devcontainers-extra/features/act:1": {},
     "ghcr.io/devcontainers-extra/features/actionlint:1": {},
     "ghcr.io/jsburckhardt/devcontainer-features/gitleaks:1": {}

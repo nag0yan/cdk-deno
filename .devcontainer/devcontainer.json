@@ -4,14 +4,12 @@
   "name": "Ubuntu",
   "image": "mcr.microsoft.com/devcontainers/base:noble",
   "features": {
-    "ghcr.io/devcontainers/features/aws-cli:1": {},
-    "ghcr.io/devcontainers/features/github-cli:1": {},
-    "ghcr.io/devcontainers-community/features/deno:1": {
-      "version": "2.0.5"
-    },
-    "ghcr.io/devcontainers-extra/features/act:1": {},
-    "ghcr.io/devcontainers-extra/features/actionlint:1": {},
-    "ghcr.io/jsburckhardt/devcontainer-features/gitleaks:1": {}
+    "ghcr.io/devcontainers/features/aws-cli:1.1.0": {},
+    "ghcr.io/devcontainers/features/github-cli:1.0.13": {},
+    "ghcr.io/devcontainers-community/features/deno:1.2.1": {},
+    "ghcr.io/devcontainers-extra/features/act:1.0.14": {},
+    "ghcr.io/devcontainers-extra/features/actionlint:1.0.6": {},
+    "ghcr.io/jsburckhardt/devcontainer-features/gitleaks:1.0.0": {}
   },
   "customizations": {
     "vscode": {
